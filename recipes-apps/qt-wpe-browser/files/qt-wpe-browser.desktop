@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Browser
+Comment=Custom Network Testing App
+Exec=/usr/share/examples/qt-wpe-browser.sh
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+Categories=Utility;Network;
+# vi: encoding=utf-8
