@@ -19,4 +19,4 @@ do_install() {
 }
 
 # Ensure weston user can execute it
-FILES:${PN} += "${bindir}/NWT4 ${datadir}/applications/nwt4.desktop"
+#FILES:${PN} += "${bindir}/NWT4 ${datadir}/applications/nwt4.desktop"
