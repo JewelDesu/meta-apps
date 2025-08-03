@@ -14,8 +14,8 @@ do_install() {
     install -d ${D}${datadir}/applications
     install -m 0644 ${WORKDIR}/qt-wpe-browser.desktop ${D}${datadir}/applications/qt-wpe-browser.desktop
 
-    install -d ${D}${datadir}/examples
-    install -m 0755 ${WORKDIR}/qt-wpe-browser.sh ${D}${datadir}/examples/qt-wpe-browser.sh
+    install -d ${D}${datadir}/${PN}
+    install -m 0755 ${WORKDIR}/qt-wpe-browser.sh ${D}${datadir}/${PN}
 }
 
 # Ensure weston user can execute it

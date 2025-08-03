@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=NWT4
 Comment=Custom Network Testing App
-Exec=/usr/share/examples/nwt4.sh
+Exec=/usr/share/nwt4/nwt4.sh
 Icon=utilities-terminal
 Terminal=false
 Type=Application

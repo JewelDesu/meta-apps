@@ -2,7 +2,7 @@
 Encoding=UTF-8
 Name=Browser
 Comment=Custom Network Testing App
-Exec=/usr/share/examples/qt-wpe-browser.sh
+Exec=/usr/share/qt-wpe-browser/qt-wpe-browser.sh
 Icon=utilities-terminal
 Terminal=false
 Type=Application

@@ -14,8 +14,8 @@ do_install() {
     install -d ${D}${datadir}/applications
     install -m 0644 ${WORKDIR}/nwt4.desktop ${D}${datadir}/applications/nwt4.desktop
 
-    install -d ${D}${datadir}/examples
-    install -m 0755 ${WORKDIR}/nwt4.sh ${D}${datadir}/examples/nwt4.sh
+    install -d ${D}${datadir}/${PN}
+    install -m 0755 ${WORKDIR}/nwt4.sh ${D}${datadir}/${PN}
 }
 
 # Ensure weston user can execute it
