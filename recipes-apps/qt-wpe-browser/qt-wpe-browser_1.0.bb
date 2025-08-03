@@ -19,4 +19,4 @@ do_install() {
 }
 
 # Ensure weston user can execute it
-FILES:${PN} += "${bindir}/qt-wpe-browser ${datadir}/applications/qt-wpe-browser.desktop"
+#FILES:${PN} += "${bindir}/qt-wpe-browser ${datadir}/applications/qt-wpe-browser.desktop"
