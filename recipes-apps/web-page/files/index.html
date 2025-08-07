@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Press Counter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 18px;
+        }
+        .count {
+            display: block;
+            margin-top: 5px;
+            font-size: 16px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Button Press Counter</h1>
+    <div>
+        <button onclick="increment(0)">Button 1</button>
+        <span class="count" id="count0">Pressed 0 times</span>
+    </div>
+    <div>
+        <button onclick="increment(1)">Button 2</button>
+        <span class="count" id="count1">Pressed 0 times</span>
+    </div>
+    <div>
+        <button onclick="increment(2)">Button 3</button>
+        <span class="count" id="count2">Pressed 0 times</span>
+    </div>
+    <div>
+        <button onclick="increment(3)">Button 4</button>
+        <span class="count" id="count3">Pressed 0 times</span>
+    </div>
+
+    <script>
+        let counts = [0, 0, 0, 0];
+
+        function increment(index) {
+            counts[index]++;
+            document.getElementById("count" + index).textContent = `Pressed ${counts[index]} times`;
+        }
+    </script>
+</body>
+</html>
